@@ -2,11 +2,21 @@ h1 {
 	color: orange;
 	text-align: center;
 }
+ header span{
+ 	color: yellow;
+ }
 
 p {
 	color: green;
 }
 
-footer {
+footer p {
 	color: blue;
 }
+
+.hightlight {
+	background-color: yellow;
+}
+ footer .heyaa {
+ 	background-color: grey;
+ }
