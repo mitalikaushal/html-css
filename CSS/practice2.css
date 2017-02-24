@@ -17,9 +17,37 @@ body {
 }
 header {
 	padding-top: 20px;
-	padding-bottom: 20px;
+	
 	color: #617140;
 }
+
+/* Site Navigation */
+.siteNav {
+	margin-top: 20px;
+}
+.siteNav a {
+	display: block;
+	color: #617140;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 3px solid #e5e9dc;
+	border-bottom: none;
+}
+.siteNav ul {
+	margin: 0;
+	padding: 9;
+}
+.siteNav li {
+	list-style: none;
+	float:left;
+	margin: 5px;
+}
+
+.siteNav a:hover {
+	background-color: #e5e9dc;
+}
+
+/*End Navigation */
 
 header h1 {
 	margin: 0;
